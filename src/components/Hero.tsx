@@ -69,15 +69,15 @@ export default function Hero() {
             <p className="text-gray-600 text-sm leading-relaxed max-w-xs">
               Setiap hari tanpa website yang optimal, ratusan calon pelanggan mencari bisnis seperti Anda di Google — dan menemukan kompetitor Anda. Kami hentikan itu sekarang.
             </p>
-            <div className="flex gap-3">
-              <button className="bg-lime-400 text-black px-5 py-2.5 rounded-full text-sm font-bold hover:bg-lime-500 transition">
+            <div className="flex flex-col sm:flex-row gap-3 w-full max-w-xs sm:max-w-none justify-center md:justify-start">
+              <button className="bg-lime-400 text-black px-5 py-3 sm:py-2.5 rounded-full text-sm font-bold hover:bg-lime-500 transition w-full sm:w-auto">
                 Gaspol Sekarang
               </button>
-              <button className="bg-black text-white px-5 py-2.5 rounded-full text-sm font-medium hover:bg-gray-800 transition">
+              <button className="bg-black text-white px-5 py-3 sm:py-2.5 rounded-full text-sm font-medium hover:bg-gray-800 transition w-full sm:w-auto border border-white/10 sm:border-transparent">
                 Lihat Hasil
               </button>
             </div>
-            <button className="border border-gray-300 px-5 py-2 rounded-full text-sm hover:bg-black hover:text-white transition-colors">
+            <button className="border border-gray-300 px-5 py-3 sm:py-2 rounded-full text-sm hover:bg-black hover:text-white transition-colors w-full max-w-xs sm:max-w-none sm:w-auto">
               Cek Potensi Bisnis
             </button>
           </div>

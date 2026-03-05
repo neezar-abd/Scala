@@ -92,21 +92,21 @@ export default function Services() {
           </div>
 
           {/* Right: CTA Cards */}
-          <div className="lg:col-span-3 grid grid-cols-2 lg:grid-cols-1 gap-4">
-            <div className="bg-[#1a1a1a] p-5 rounded-3xl flex flex-col justify-between group cursor-pointer hover:bg-[#222] transition">
+          <div className="lg:col-span-3 grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-1 gap-4">
+            <div className="bg-[#1a1a1a] p-6 rounded-3xl flex flex-col justify-between group cursor-pointer hover:bg-[#222] transition">
               <p className="text-gray-400 text-sm">
                 Tidak tahu kenapa website Anda sepi pengunjung?
               </p>
-              <div className="flex justify-between items-end mt-4">
+              <div className="flex justify-between items-end mt-6">
                 <span className="font-bold text-base">Audit Gratis <br />Sekarang</span>
                 <ArrowUpRight className="w-5 h-5 text-lime-400 flex-shrink-0" />
               </div>
             </div>
-            <div className="bg-lime-400 text-black p-5 rounded-3xl flex flex-col justify-between group cursor-pointer hover:bg-lime-500 transition">
+            <div className="bg-lime-400 text-black p-6 rounded-3xl flex flex-col justify-between group cursor-pointer hover:bg-lime-500 transition">
               <p className="text-black/70 text-sm">
                 Siap ubah website jadi mesin pencetak omzet?
               </p>
-              <div className="flex justify-between items-end mt-4">
+              <div className="flex justify-between items-end mt-6">
                 <span className="font-bold text-base">Mulai Proyek <br />Sekarang</span>
                 <div className="bg-white rounded-full p-1 flex-shrink-0">
                   <ArrowUpRight className="w-4 h-4 text-black" />
